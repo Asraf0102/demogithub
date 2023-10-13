@@ -1,0 +1,19 @@
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+
+inp.on("line", (data) => {
+    
+    // Input data process here
+    
+});
+
+inp.on("close", () => {
+
+    // Output data process here
+
+});
